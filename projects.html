@@ -29,17 +29,37 @@
   <section id="main-content">
 
   <h1>Monte Carlo Tree Search</h1>
-  <p>In my artificial intelligence course I built used Monte Carlo Tree Search to play 2048.</p>
+  <p>In my artificial intelligence course I built used Monte Carlo Tree Search to play <a href="https://gabrielecirulli.github.io/2048/">2048</a>. Below is a shot of me playing against the algorithm I developed during a presentation. The computer, playing on the right side, shows incredible speed and smart play even in comparison to a seasoned human player.</p>
+  <img src="images/mcts.png" height="225" width="850"align="top"/>
 
 
+  <br /><br />
   <h1>Random Naive Bayes</h1>
-  <p>In my machine learning course I worked on a project to predict the top grossing movies in a year. One of my approaches followed that of Leo Breiman's Random Forest, but instead used Naive Bayes Classifiers as the base learner.</p>
+  <p>In my machine learning course I worked on a project to predict the top grossing movies in a year. One of my approaches followed that of Leo Breiman's Random Forest, but instead used Naive Bayes Classifiers as the base learner. Interestingly, when compared on ability to rank over a moving window, the Random Naive Bayes' model performed better than boosted decision trees. However, the results still couldn't top the original Random Forest. </p>
+  <img src="images/rnb.png" align="top"/>
+
+
+  <br /><br />
+  <h1>Object Tracking and Behavior Classification</h1>
+  <p>In my computer vision course I constructed an artificial data set exhibiting a variety of behaviors, such as one object following another:</p>
+  <img src="images/follow.gif" height="300" width="300" align="top"/>
+  <img src="images/tracking_label.png" align="top"/>
+  <p> This data was then used to tune an object tracking algorithm, and ultimately classify the type of behavior the objects exhibited. Finally, using the idea of transfer learning, the same model was applied on live videos to a surprising amount of accuracy!</p>
+  <img src="images/real.jpg" align="top"/>
+
+  <br /><br />
+  <h1>Gesture Recognition</h1>
+  <p>In my artificial intelligence II course, I built a gesture recognition system. The system incorporated a variety of computer vision techniques in order to extract poses from each video frame. The dataset that the final model was trained on was artificially inflated by  creating randomly perturbed copies of each image. By perturbing each image, a kernel based clustering algorithm was able to extract similar poses - regardless of the location and size of the actor. For example, the images below are from a cluster that includes many poses related to fighting or shaking hands.</p>
+
+  <img src="images/cluster12.png" align="top"/>
+
+  <p>Sequences of poses were then modeled using a Hidden Markov Model to estimate the gesture exhibited.</p>
 
   </section>
 
   <footer>
     <p>Copyright &#169; 2014 Robert A. Giaquinto<br />
-    Last modified June 2015</p>
+    Last modified October 2015</p>
   </footer>
 </body>
 

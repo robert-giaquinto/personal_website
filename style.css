@@ -102,3 +102,11 @@ footer {
 footer p {
 	color: white;
 }
+
+figcaption {
+	padding: 0px;
+	font-size: 0.6em;
+	border: none;
+	background: transparent;
+	word-wrap:normal;
+}

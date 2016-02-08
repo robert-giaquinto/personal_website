@@ -35,6 +35,7 @@ ul, li {
 }
 
 
+
 /*Main Navigation */
 .main-nav {
 position: absolute;
@@ -73,20 +74,27 @@ padding: 0;
 display: block;
 }
 
-/*.main-nav li li {
-float: none;
-border-bottom: 1px solid #738b61;
-border-left: 1px solid #738b61;
-border-right: 1px solid #738b61;
+.main-nav ul ul {
+    position: absolute; top: 100%;
+    display: none;
+    border: 1px solid #738b61;
 }
-.main-nav li li a {
-background: white;
-color: gray;
-}
-.main-nav li li a:hover {
-color: #ccc;
-}*/
 
+.main-nav li ul ul {
+	float: none;
+	border-top: 5px solid #738b61;
+	border-bottom: 5px solid #738b61;
+	position: relative;
+}
+
+.main-nav li:hover ul ul {
+display: block;
+}
+
+
+
+
+/* FOOTER */
 footer {
  	position: absolute;
  	overflow: hidden;
